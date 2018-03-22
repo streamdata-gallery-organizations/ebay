@@ -11,8 +11,8 @@ tags:
 - Partners
 - Commerce
 - Auction
-created: "2018-03-14"
-modified: "2018-03-14"
+created: "2018-03-22"
+modified: "2018-03-22"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/apis.yaml
 specificationVersion: "0.14"
 apis:
