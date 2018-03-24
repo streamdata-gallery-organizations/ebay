@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: ebay.api.streamdata.gallery
+title: Streamdata Gallery eBay
+url: ebay.streamdata.gallery
 tag: eBay
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: ebay
 github_branch: master
 collections:
