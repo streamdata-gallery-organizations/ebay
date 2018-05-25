@@ -3,13 +3,13 @@ name: eBay
 x-slug: ebay
 description: Buy and sell electronics, cars, fashion apparel, collectibles, sporting
   goods, digital cameras, baby items, coupons, and everything else on eBay, the worlds
-  online marketplace.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  online marketplace
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "42"
 tags: eBay
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-25"
+modified: "2018-05-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/apis.md
 specificationVersion: "0.14"
 apis:
@@ -40,7 +40,7 @@ apis:
     strongly recommended you use contextualLocation to improved the estimated delivery
     window information. For details see, Request headers in the Buy APIs Overview.
     Restrictions For a list of supported sites and other restrictions, see API Restrictions.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////item/get_item_by_legacy_id
   tags: Auctions,Item, , Item, Legacy
@@ -67,7 +67,7 @@ apis:
     strongly recommended you use contextualLocation to improved the estimated delivery
     window information. For details see, Request headers in the Buy APIs Overview.
     Restrictions For a list of supported sites and other restrictions, see API Restrictions.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////item/get_items_by_item_group
   tags: Auctions,Item, , Items, Item, Group
@@ -97,7 +97,7 @@ apis:
     strongly recommended you use contextualLocation to improved the estimated delivery
     window information. For details see, Request headers in the Buy APIs Overview.
     Restrictions For a list of supported sites and other restrictions, see API Restrictions.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////item/{item_id}
   tags: Auctions,Item, Item
@@ -159,7 +159,7 @@ apis:
     For details see, Request headers in the Buy APIs Overview. Restrictions For a
     list of supported sites and other restrictions, see API Restrictions. Limitation:
     This call can return a maximum of 10,000 items.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////item_summary/search
   tags: Auctions,Item, Summary, Search
@@ -196,7 +196,7 @@ apis:
     column can be explained. The order of the response fields, shows you the order
     of the columns in the feed file. Restrictions For a list of supported sites and
     other restrictions, see API Restrictions.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////item
   tags: Auctions,Item
@@ -243,7 +243,7 @@ apis:
     so that the value returned in each column can be explained. The order of the response
     fields, shows you the order of the columns in the feed file. Restrictions For
     a list of supported sites and other restrictions, see API Restrictions.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////item_description
   tags: Auctions,Item, Description
@@ -259,7 +259,7 @@ apis:
     title, and user reviews and ratings for the product. You can use the epid returned
     by this call in the Browse API search call to retrieve items for this product.
     Restrictions For a list of supported sites and other restrictions, see API Restrictions.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////merchandised_product
   tags: Auctions,Merchandised, Product
@@ -279,7 +279,7 @@ apis:
     are returned. The call will return up to 12 products, but it can be less than
     12. If the number of products found is less than 12, the call will return all
     of the products matching the criteria.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////merchandised_product/get_also_bought_products
   tags: Auctions,Merchandised, Product, , Also, Bought, Products
@@ -299,7 +299,7 @@ apis:
     are returned. The call will return up to 12 products, but it can be less than
     12. If the number of products found is less than 12, the call will return all
     of the products matching the criteria.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////merchandised_product/get_also_viewed_products
   tags: Auctions,Merchandised, Product, , Also, Viewed, Products
@@ -319,7 +319,7 @@ apis:
     following HTTP header: &nbsp;&nbsp;Accept-Encoding: application/gzip With this
     header (in addition to the required headers described under HTTP Request Headers),
     the call returns the response with gzip compression.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////category_tree/{category_tree_id}
   tags: Auctions,Category, Tree, Category, Tree
@@ -338,7 +338,7 @@ apis:
     &nbsp;&nbsp;Accept-Encoding: application/gzip With this header (in addition to
     the required headers described under HTTP Request Headers), the call returns the
     response with gzip compression.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////category_tree/{category_tree_id}/get_category_subtree
   tags: Auctions,Category, Tree, Category, Tree, , , Category, Subtree
@@ -363,7 +363,7 @@ apis:
     call is not supported in the Sandbox environment. It will return a response payload
     in which the categoryName fields contain random or boilerplate text regardless
     of the query submitted.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////category_tree/{category_tree_id}/get_category_suggestions
   tags: Auctions,Category, Tree, Category, Tree, , , Category, Suggestions
@@ -386,7 +386,7 @@ apis:
     enter or select the appropriate values for their items or item variations. Once
     you collect those values, include them as product aspects when creating inventory
     items using the Inventory API.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////category_tree/{category_tree_id}/get_item_aspects_for_category
   tags: Auctions,Category, Tree, Category, Tree, , , Item, Aspects, Category
@@ -403,7 +403,7 @@ apis:
     eBay marketplace ID. The response includes only the tree's unique identifier and
     version, which you can use to retrieve more details about the tree, its structure,
     and its individual category nodes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////get_default_category_tree_id
   tags: Auctions,Default, Category, Tree
@@ -425,7 +425,7 @@ apis:
     and shipping costs Important: In this call, the cancelStatus.cancelRequests array
     is returned but is always empty. Use the getOrder call instead, which returns
     this array fully populated with information about any cancellation requests.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////order
   tags: Auctions,Order
@@ -445,7 +445,7 @@ apis:
     the order The status of payment, packaging, addressing, and shipping the order
     A summary of monetary amounts specific to the order such as pricing, payments,
     and shipping costs'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////order/{orderId}
   tags: Auctions,Order, Order
@@ -460,7 +460,7 @@ apis:
     defined for a specified order based on the order's unique identifier, orderId.
     This value is returned in the getOrders call's members.orderId field when you
     search for orders by creation date or shipment status.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////order/{orderId}/shipping_fulfillment
   tags: Auctions,Order, Order, Shipping, Fulfillment
@@ -482,7 +482,7 @@ apis:
     you must determine which line items are in the package. If the package has been
     shipped, you should provide the date of shipment in the request. If not provided,
     it will default to the current date and time.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////order/{orderId}/shipping_fulfillment
   tags: Auctions,Order, Order, Shipping, Fulfillment
@@ -496,7 +496,7 @@ apis:
     The fulfillmentId value was originally generated by the createShippingFulfillment
     call, and is returned by the getShippingFulfillments call in the members.fulfillmentId
     field.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com////order/{orderId}/shipping_fulfillment/{fulfillmentId}
   tags: Auctions,Order, Order, Shipping, Fulfillment, Fulfillment
@@ -509,8 +509,8 @@ apis:
   x-api-slug: ebay
   description: Buy and sell electronics, cars, fashion apparel, collectibles, sporting
     goods, digital cameras, baby items, coupons, and everything else on eBay, the
-    worlds online marketplace.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+    worlds online marketplace
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com//
   tags: eBay
@@ -522,10 +522,18 @@ x-common:
   url: https://go.developer.ebay.com/dev-program-blog
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/ebay
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/leah
 - type: x-developer
   url: https://go.developer.ebay.com/
+- type: x-email
+  url: spam@ebay.com
+- type: x-email
+  url: spoof@ebay.com
 - type: x-github
   url: https://github.com/eBayDeveloper
+- type: x-twitter
+  url: https://twitter.com/eBay
 - type: x-twitter
   url: https://twitter.com/ebaydev
 - type: x-website
