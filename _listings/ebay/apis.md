@@ -8,13 +8,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.j
 x-kinRank: "8"
 x-alexaRank: "42"
 tags: eBay
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Ebay Get Item Get Item By Legacy
-  x-api-slug: ebay
+- name: Ebay - Get Item Get Item By Legacy
+  x-api-slug: itemget-item-by-legacy-id-get
   description: This call is a bridge between the eBay legacy APIs, such as Trading,
     Shopping, and Finding and the eBay Buy APIs. There are differences between how
     legacy APIs and RESTful APIs return the identifier of an &quot;item&quot;. There
@@ -42,15 +42,17 @@ apis:
     Restrictions For a list of supported sites and other restrictions, see API Restrictions.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////item/get_item_by_legacy_id
-  tags: Auctions,Item, , Item, Legacy
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/itemget-item-by-legacy-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/itemget-item-by-legacy-id-get-openapi.md
-- name: Ebay Get Item Get Items By Item Group
-  x-api-slug: ebay
+- name: Ebay - Get Item Get Items By Item Group
+  x-api-slug: itemget-items-by-item-group-get
   description: This call retrieves the details of the individual items in an item
     group. An item group is an item that has various aspect differences, such as color,
     size, storage capacity, etc. You pass in the item group Id as a URI parameter.
@@ -69,15 +71,17 @@ apis:
     Restrictions For a list of supported sites and other restrictions, see API Restrictions.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////item/get_items_by_item_group
-  tags: Auctions,Item, , Items, Item, Group
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/itemget-items-by-item-group-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/itemget-items-by-item-group-get-openapi.md
-- name: Ebay Get Item Item
-  x-api-slug: ebay
+- name: Ebay - Get Item Item
+  x-api-slug: itemitem-id-get
   description: This call retrieves the details of a specific item, such as description,
     price, category, all item aspects, condition, return policies, seller feedback
     and score, shipping options, shipping costs, estimated delivery, and other information
@@ -99,15 +103,17 @@ apis:
     Restrictions For a list of supported sites and other restrictions, see API Restrictions.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////item/{item_id}
-  tags: Auctions,Item, Item
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/itemitem-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/itemitem-id-get-openapi.md
-- name: Ebay Get Item Summary Search
-  x-api-slug: ebay
+- name: Ebay - Get Item Summary Search
+  x-api-slug: item-summarysearch-get
   description: 'This call performs an advanced search for items. You can search by
     keyword, category, eBay product Id (EPID), or gtin. Or a combination of these.
     Encoding Parameters and Headers As with all query parameter values, the fields
@@ -161,15 +167,17 @@ apis:
     This call can return a maximum of 10,000 items.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////item_summary/search
-  tags: Auctions,Item, Summary, Search
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/item-summarysearch-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/item-summarysearch-get-openapi.md
-- name: Ebay Get Item
-  x-api-slug: ebay
+- name: Ebay - Get Item
+  x-api-slug: item-get
   description: 'The Item feed file is generated each day. This call lets you download
     a daily TSV_GZIP (tab separated value gzip) Item feed file of all the items that
     were listed on a specific day in a specific category. For each item, all the item
@@ -198,15 +206,17 @@ apis:
     other restrictions, see API Restrictions.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////item
-  tags: Auctions,Item
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/item-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/item-get-openapi.md
-- name: Ebay Get Item Description
-  x-api-slug: ebay
+- name: Ebay - Get Item Description
+  x-api-slug: item-description-get
   description: 'The Description feed file is generated each day. This call lets you
     download a daily TSV_GZIP (tab separated value gzip) Description feed file containing
     the descriptions of all the items that were listed on a specific day in a specific
@@ -245,15 +255,17 @@ apis:
     a list of supported sites and other restrictions, see API Restrictions.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////item_description
-  tags: Auctions,Item, Description
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/item-description-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/item-description-get-openapi.md
-- name: Ebay Get Merchandised Product
-  x-api-slug: ebay
+- name: Ebay - Get Merchandised Product
+  x-api-slug: merchandised-product-get
   description: This call returns an array of products based on the category and metric
     specified. This includes details of the product, such as the eBay product Id (EPID),
     title, and user reviews and ratings for the product. You can use the epid returned
@@ -261,15 +273,17 @@ apis:
     Restrictions For a list of supported sites and other restrictions, see API Restrictions.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////merchandised_product
-  tags: Auctions,Merchandised, Product
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/merchandised-product-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/merchandised-product-get-openapi.md
-- name: Ebay Get Merchandised Product Get Also Bought Products
-  x-api-slug: ebay
+- name: Ebay - Get Merchandised Product Get Also Bought Products
+  x-api-slug: merchandised-productget-also-bought-products-get
   description: 'This call returns products that were also bought when shoppers bought
     the product specified in the request. Showing ''also bought'' products inspires
     up-selling and cross-selling. You specify the product by one of the following.
@@ -281,15 +295,17 @@ apis:
     of the products matching the criteria.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////merchandised_product/get_also_bought_products
-  tags: Auctions,Merchandised, Product, , Also, Bought, Products
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/merchandised-productget-also-bought-products-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/merchandised-productget-also-bought-products-get-openapi.md
-- name: Ebay Get Merchandised Product Get Also Viewed Products
-  x-api-slug: ebay
+- name: Ebay - Get Merchandised Product Get Also Viewed Products
+  x-api-slug: merchandised-productget-also-viewed-products-get
   description: 'This call returns products that were also viewed when shoppers viewed
     the product specified in the request. Showing ''also viewed'' products encourages
     up-selling and cross-selling. You specify the product by one of the following.
@@ -301,15 +317,17 @@ apis:
     of the products matching the criteria.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////merchandised_product/get_also_viewed_products
-  tags: Auctions,Merchandised, Product, , Also, Viewed, Products
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/merchandised-productget-also-viewed-products-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/merchandised-productget-also-viewed-products-get-openapi.md
-- name: Ebay Get Category Tree Category Tree
-  x-api-slug: ebay
+- name: Ebay - Get Category Tree Category Tree
+  x-api-slug: category-treecategory-tree-id-get
   description: 'This call retrieves the complete category tree that is identified
     by the category_tree_id parameter. The value of category_tree_id was returned
     by the getDefaultCategoryTreeId call in the categoryTreeId field. The response
@@ -321,15 +339,17 @@ apis:
     the call returns the response with gzip compression.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////category_tree/{category_tree_id}
-  tags: Auctions,Category, Tree, Category, Tree
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/category-treecategory-tree-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/category-treecategory-tree-id-get-openapi.md
-- name: Ebay Get Category Tree Category Tree  Get Category Subtree
-  x-api-slug: ebay
+- name: Ebay - Get Category Tree Category Tree  Get Category Subtree
+  x-api-slug: category-treecategory-tree-idget-category-subtree-get
   description: 'This call retrieves the details of all nodes of the category tree
     hierarchy (the subtree) below a specified category of a category tree. You identify
     the tree using the category_tree_id parameter, which was returned by the getDefaultCategoryTreeId
@@ -340,15 +360,17 @@ apis:
     response with gzip compression.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////category_tree/{category_tree_id}/get_category_subtree
-  tags: Auctions,Category, Tree, Category, Tree, , , Category, Subtree
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/category-treecategory-tree-idget-category-subtree-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/category-treecategory-tree-idget-category-subtree-get-openapi.md
-- name: Ebay Get Category Tree Category Tree  Get Category Suggestions
-  x-api-slug: ebay
+- name: Ebay - Get Category Tree Category Tree  Get Category Suggestions
+  x-api-slug: category-treecategory-tree-idget-category-suggestions-get
   description: 'This call returns an array of category tree leaf nodes in the specified
     category tree that are considered by eBay to most closely correspond to the query
     string q. Returned with each suggested node is a localized name for that category
@@ -365,15 +387,17 @@ apis:
     of the query submitted.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////category_tree/{category_tree_id}/get_category_suggestions
-  tags: Auctions,Category, Tree, Category, Tree, , , Category, Suggestions
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/category-treecategory-tree-idget-category-suggestions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/category-treecategory-tree-idget-category-suggestions-get-openapi.md
-- name: Ebay Get Category Tree Category Tree  Get Item Aspects For Category
-  x-api-slug: ebay
+- name: Ebay - Get Category Tree Category Tree  Get Item Aspects For Category
+  x-api-slug: category-treecategory-tree-idget-item-aspects-for-category-get
   description: 'This call returns a list of aspects that are appropriate or necessary
     for accurately describing items in the specified leaf category. Each aspect identifies
     an item attribute (for example, color) for which the seller will be required or
@@ -388,15 +412,17 @@ apis:
     items using the Inventory API.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////category_tree/{category_tree_id}/get_item_aspects_for_category
-  tags: Auctions,Category, Tree, Category, Tree, , , Item, Aspects, Category
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/category-treecategory-tree-idget-item-aspects-for-category-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/category-treecategory-tree-idget-item-aspects-for-category-get-openapi.md
-- name: Ebay Get Get Default Category Tree
-  x-api-slug: ebay
+- name: Ebay - Get Get Default Category Tree
+  x-api-slug: get-default-category-tree-id-get
   description: A given eBay marketplace might use multiple category trees, but one
     of those trees is considered to be the default for that marketplace. This call
     retrieves a reference to the default category tree associated with the specified
@@ -405,15 +431,17 @@ apis:
     and its individual category nodes.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////get_default_category_tree_id
-  tags: Auctions,Default, Category, Tree
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/get-default-category-tree-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/get-default-category-tree-id-get-openapi.md
-- name: Ebay Get Order
-  x-api-slug: ebay
+- name: Ebay - Get Order
+  x-api-slug: order-get
   description: 'Use this call to search for and retrieve one or more orders based
     on their creation date, last modification date, or fulfillment status using the
     filter parameter. You can alternatively specify a list of orders using the orderIds
@@ -427,15 +455,17 @@ apis:
     this array fully populated with information about any cancellation requests.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////order
-  tags: Auctions,Order
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/order-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/order-get-openapi.md
-- name: Ebay Get Order Order
-  x-api-slug: ebay
+- name: Ebay - Get Order Order
+  x-api-slug: orderorderid-get
   description: 'Use this call to retrieve the contents of an order based on its unique
     identifier, orderId. This value was returned in the getOrders call''s orders.orderId
     field when you searched for orders by creation date, modification date, or fulfillment
@@ -447,30 +477,34 @@ apis:
     and shipping costs'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////order/{orderId}
-  tags: Auctions,Order, Order
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/orderorderid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/orderorderid-get-openapi.md
-- name: Ebay Get Order Order Shipping Fulfillment
-  x-api-slug: ebay
+- name: Ebay - Get Order Order Shipping Fulfillment
+  x-api-slug: orderorderidshipping-fulfillment-get
   description: Use this call to retrieve the contents of all fulfillments currently
     defined for a specified order based on the order's unique identifier, orderId.
     This value is returned in the getOrders call's members.orderId field when you
     search for orders by creation date or shipment status.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////order/{orderId}/shipping_fulfillment
-  tags: Auctions,Order, Order, Shipping, Fulfillment
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/orderorderidshipping-fulfillment-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/orderorderidshipping-fulfillment-get-openapi.md
-- name: Ebay Add Order Order Shipping Fulfillment
-  x-api-slug: ebay
+- name: Ebay - Add Order Order Shipping Fulfillment
+  x-api-slug: orderorderidshipping-fulfillment-post
   description: 'When you group an order''s line items into one or more packages, each
     package requires a corresponding plan for handling, addressing, and shipping;
     this is a shipping fulfillment. For each package, execute this call once to generate
@@ -484,13 +518,15 @@ apis:
     it will default to the current date and time.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////order/{orderId}/shipping_fulfillment
-  tags: Auctions,Order, Order, Shipping, Fulfillment
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/orderorderidshipping-fulfillment-post-openapi.md
-- name: Ebay Get Order Order Shipping Fulfillment Fulfillment
-  x-api-slug: ebay
+- name: Ebay - Get Order Order Shipping Fulfillment Fulfillment
+  x-api-slug: orderorderidshipping-fulfillmentfulfillmentid-get
   description: Use this call to retrieve the contents of a fulfillment based on its
     unique identifier, fulfillmentId (combined with the associated order's orderId).
     The fulfillmentId value was originally generated by the createShippingFulfillment
@@ -498,26 +534,20 @@ apis:
     field.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////order/{orderId}/shipping_fulfillment/{fulfillmentId}
-  tags: Auctions,Order, Order, Shipping, Fulfillment, Fulfillment
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/orderorderidshipping-fulfillmentfulfillmentid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/orderorderidshipping-fulfillmentfulfillmentid-get-openapi.md
-- name: Ebay
-  x-api-slug: ebay
-  description: Buy and sell electronics, cars, fashion apparel, collectibles, sporting
-    goods, digital cameras, baby items, coupons, and everything else on eBay, the
-    worlds online marketplace
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
-  humanURL: https://ebay.com
-  baseURL: https://api.ebay.com//
-  tags: eBay
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://easycron.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://ebay.stack.network
 - type: x-blog
   url: https://go.developer.ebay.com/dev-program-blog
 - type: x-crunchbase

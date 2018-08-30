@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - eBay",
+	"description": "This is a repository of ebay APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/ebay.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://ebay.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "eBay",
+			"x-api-slug": "ebay",
+			"description": "Buy and sell electronics, cars, fashion apparel, collectibles, sporting goods, digital cameras, baby items, coupons, and everything else on eBay, the worlds online marketplace",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg",
+			"humanURL": "https://ebay.com",
+			"baseURL": "https://api.ebay.com//",
+			"tags": "eBay",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "eBay",
+	"include": [
+		{
+			"name": "eBay",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/apis.yaml"
+		}
+	]
+}
