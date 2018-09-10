@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.j
 x-kinRank: "8"
 x-alexaRank: "42"
 tags: eBay
-created: "2018-08-30"
-modified: "2018-08-30"
+created: "2018-09-09"
+modified: "2018-09-09"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/apis.md
 specificationVersion: "0.14"
 apis:
@@ -543,6 +543,49 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/orderorderidshipping-fulfillmentfulfillmentid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/orderorderidshipping-fulfillmentfulfillmentid-get-openapi.md
+- name: EBay Finding API - Find Item By Keywords
+  x-api-slug: operationnamefinditemsbykeywords-get
+  description: This call searches for items on eBay by a keyword query (keywords).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
+  humanURL: https://ebay.com
+  baseURL: https://svcs.ebay.com//services/search/FindingService/v1
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/operationnamefinditemsbykeywords-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/operationnamefinditemsbykeywords-get-openapi.md
+- name: EBay Finding API - Find Item By Category
+  x-api-slug: operationnamefinditemsbycategory-get
+  description: Returns items in a specific category. Results can be filtered and sorted.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
+  humanURL: https://ebay.com
+  baseURL: https://svcs.ebay.com//services/search/FindingService/v1
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/operationnamefinditemsbycategory-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/operationnamefinditemsbycategory-get-openapi.md
+- name: EBay Finding API - Find Item By Advanced
+  x-api-slug: operationnamefinditemsadvanced-get
+  description: Finds items by a keyword query and/or category and allows searching
+    within item descriptions.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
+  humanURL: https://ebay.com
+  baseURL: https://svcs.ebay.com//services/search/FindingService/v1
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/operationnamefinditemsadvanced-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/ebay/master/_listings/ebay/operationnamefinditemsadvanced-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://easycron.api.gallery.streamdata.io
